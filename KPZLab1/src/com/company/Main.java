@@ -1,7 +1,8 @@
 package com.company;
 
 import javax.swing.plaf.synth.SynthScrollBarUI;
-/* Основна точка входу в програму */
+
+//головний_клас_програми
 public class Main {
     public static void main(String[] args) {
         GameCreator creator = GetCreatorByName("PS");
