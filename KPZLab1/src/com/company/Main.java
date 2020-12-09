@@ -16,6 +16,7 @@ public class Main {
         else throw new RuntimeException("Не підтримується виробництво даного типу ігор : "+ creator);
         }
     }
+/* Інтерфейс гри, який реалзіє метод Грати */
 interface Game{
     void Play();
 }
