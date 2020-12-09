@@ -1,6 +1,7 @@
 package com.company;
 
 import javax.swing.plaf.synth.SynthScrollBarUI;
+
 //головний_клас_програми
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +17,7 @@ public class Main {
         else throw new RuntimeException("Не підтримується виробництво даного типу ігор : "+ creator);
         }
     }
+/* Інтерфейс гри, який реалзіє метод Грати */
 interface Game{
     void Play();
 }
